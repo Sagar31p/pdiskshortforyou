@@ -72,7 +72,7 @@ async def pdisk_uploader(bot, message):
     
 async def pdisk_up(link):
     if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'vdshort' in link or 'vidrivers' in link or 'dplinks' in link or 'wslinker' in link or 'cdinks' in link or 'dropxer' in link or 'dood' in link):
-        url = 'https://droplink.co/api'
+        url = 'https://doodurl.in/api'
         params = {'api': API_KEY, 'url': link}
     
         async with aiohttp.ClientSession() as session:
@@ -129,9 +129,9 @@ async def remove_username(new_List):
   
 async def addFooter(str):
     footer = """
-    ━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online :""" + HOWTO
-    
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL 
+  
     return str + footer
        
 bot.run()
