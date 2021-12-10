@@ -132,10 +132,11 @@ async def addFooter(str):
     ━━━━━━━━━━━━━━━
 ⚙️ How to Download / Watch Online :""" + HOWTO
      ━━━━━━━━━━━━━━━
- 
-    footer = """
+ return str + footer
+   
+  footer = """
 ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
   
-     return str + footer
+     
      
 bot.run()
