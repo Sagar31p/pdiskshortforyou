@@ -112,6 +112,8 @@ async def multi_pdisk_up(ml_string):
 
     new_string = " ".join(new_ml_string)
     return await addFooter(new_string)
+    return await addFooter(new_string)
+
     return (new_string)
 
 async def new_pdisk_url(urls):
@@ -129,11 +131,14 @@ async def remove_username(new_List):
   
 async def addFooter(str):
     footer = """
-   
-    ━━━━━━━━━━━━━━━
-⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
-  
+   ━━━━━━━━━━━━━━━
 ⚙️ How to Download / Watch Online :""" + HOWTO
+    
+   return str + footer
+
+  async def addFooter(str):
+  footer = """
+⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     
      return str + footer
 bot.run()
