@@ -1,11 +1,12 @@
 
 # Pdiskshortforyou-bot
 Make short link by using [Droplink](https://pdiskshortforyou.tech) API key
+### Join Our Channel t.me/hornyworld22 or contact t.me/mrpunisher52 for bot
 ### Installation
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pdiskbot/Droplink)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pdiskbot/pdiskshortforyou)
 
 ##### Required Variables
 
@@ -13,6 +14,6 @@ Make short link by using [Droplink](https://pdiskshortforyou.tech) API key
 
 * `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
-* `API_KEY`: Create [Droplink](https://Droplinks.co/) account then get this value from [Droplink API](https://Droplinks.co/member/tools/api)
+* `API_KEY`: Create [pdiskshortforyou](https://pdiskshortforyou.tech) account then get this value from [Droplink API](https://pdiskshortforyou.tech/member/tools/api)
 * `CHANNEL`: Your Backup channel link
-* `HOWTO`: Your "How to Download from Droplink" video link
+* `HOWTO`: Your "How to Download from pdiskshortforyou" video link
