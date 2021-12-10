@@ -134,9 +134,6 @@ async def addFooter(str):
      ━━━━━━━━━━━━━━━
      ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     
-    return str + footer
-  
-  async def addFooter(str):
     footer = """
     ━━━━━━━━━━━━━━━
 ⚙️ How to Download / Watch Online :""" + HOWTO
