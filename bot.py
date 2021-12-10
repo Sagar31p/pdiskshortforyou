@@ -132,7 +132,6 @@ async def addFooter(str):
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
  Droplink tutorial - https://t.me/hornyworld22/13       
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
        
 bot.run()
