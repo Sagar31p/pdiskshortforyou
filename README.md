@@ -14,6 +14,6 @@ Make short link by using [Droplink](https://pdiskshortforyou.tech) API key
 
 * `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
-* `API_KEY`: Create [pdiskshortforyou](https://pdiskshortforyou.tech) account then get this value from [Droplink API](https://pdiskshortforyou.tech/member/tools/api)
+* `API_KEY`: Create [pdiskshortforyou](https://pdiskshortforyou.tech) account then get this value from [pdiskshortforyou API](https://pdiskshortforyou.tech/member/tools/api)
 * `CHANNEL`: Your Backup channel link
 * `HOWTO`: Your "How to Download from pdiskshortforyou" video link
