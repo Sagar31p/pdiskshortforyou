@@ -111,7 +111,7 @@ async def multi_pdisk_up(ml_string):
         i += 1
 
     new_string = " ".join(new_ml_string)
-    #return await addFooter(new_string)
+    return await addFooter(new_string)
     return (new_string)
 
 async def new_pdisk_url(urls):
