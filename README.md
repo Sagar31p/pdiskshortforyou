@@ -1,6 +1,6 @@
 
 # Pdiskshortforyou-bot
-Make short link by using [Droplink](https://pdiskshortforyou.tech) API key
+Make short link by using [pdiskshortforyou](https://pdiskshortforyou.tech) API key
 ### Join Our Channel on telegram 
 [@hornyworld22](t.me/hornyworld22) or contact [@mrpunisher52](t.me/mrpunisher52) for bot
 ### Installation
