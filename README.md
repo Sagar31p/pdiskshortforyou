@@ -1,5 +1,6 @@
-# Droplink-bot
-Make short link by using [Droplink](https://droplinks.co/) API key
+
+# Pdiskshortforyou-bot
+Make short link by using [Droplink](https://pdiskshortforyou.tech) API key
 ### Installation
 
 #### The Easy Way
