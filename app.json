@@ -9,7 +9,7 @@
     "repository": "https://github.com/Pdiskbot/pdiskshortforyou",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token",
+            "description": "Your telegram bot token",
             "value": ""
         },
         "API_ID": {
@@ -18,11 +18,11 @@
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "63c301e0e818c79153e9175ff8f9d0833dce5c76"
+            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
         },
         "API_KEY": {
             "description": "https://pdiskshortforyou.tech/member/tools/api",
-            "value": "cba1f13c720c62f5298bfaafd26e9ad29e8bbeb5"
+            "value": "63c301e0e818c79153e9175ff8f9d0833dce5c76"
         },
         "CHANNEL": {
             "description": "Your Backup channel link",
