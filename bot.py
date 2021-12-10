@@ -27,7 +27,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Droplink bot. Just send me link and get short link")
+        "I'm pdiskshortforyou bot. Just send me link and get short link. bot command are /start /help /support or contact @mrpunisher52 or join our channel @hornyworld22 for help.")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
@@ -129,8 +129,8 @@ async def remove_username(new_List):
   
 async def addFooter(str):
     footer = """
-    ━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online :""" + HOWTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     
     return str + footer
        
