@@ -27,7 +27,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm pdiskshortforyou bot. Just send me link and get short link. bot command are /start /help /support or contact @mrpunisher52 or join our channel @hornyworld22 for help.")
+        "I'm droplink bot. Just send me link and get short link made by @mrpunisher52")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
@@ -72,7 +72,7 @@ async def pdisk_uploader(bot, message):
     
 async def pdisk_up(link):
     if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'vdshort' in link or 'vidrivers' in link or 'dplinks' in link or 'wslinker' in link or 'cdinks' in link or 'dropxer' in link or 'dood' in link):
-        url = 'https://pdiskshortforyou.tech/api'
+        url = 'https://droplink.co/api'
         params = {'api': API_KEY, 'url': link}
     
         async with aiohttp.ClientSession() as session:
@@ -132,6 +132,14 @@ async def addFooter(str):
     ━━━━━━━━━━━━━━━
 ⚙️ How to Download / Watch Online :""" + HOWTO
     
+    return str + footer
+       
+bot.run()    footer = """
+    ━━━━━━━━━━━━━━━
+⚙️ Droplink tutorial - https://t.me/hornyworld22/13    
+     ━━━━━━━━━━━━━━━
+     ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+
     return str + footer
        
 bot.run()
