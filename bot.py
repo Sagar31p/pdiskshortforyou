@@ -134,6 +134,8 @@ async def addFooter(str):
 ⚙️ Droplink tutorial - https://t.me/hornyworld22/13    
      ━━━━━━━━━━━━━━━
      ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+    
+    ⚙️ How to Download / Watch Online :""" + HOWTO
 
     return str + footer
        
