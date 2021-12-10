@@ -14,7 +14,7 @@ API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 API_KEY = environ.get('API_KEY')
 CHANNEL = environ.get('CHANNEL')
-HOWTO = environ.get('HOWTO')
+
 
 
 bot = Client('Droplink bot', 
@@ -133,10 +133,6 @@ async def addFooter(str):
 ⚙️ Droplink tutorial - https://t.me/hornyworld22/13    
      ━━━━━━━━━━━━━━━
      ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
-    
-    footer = """
-    ━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online :""" + HOWTO
     
     return str + footer
        
