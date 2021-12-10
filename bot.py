@@ -129,14 +129,18 @@ async def remove_username(new_List):
   
 async def addFooter(str):
     footer = """
-  
     ━━━━━━━━━━━━━━━
 ⚙️ Droplink tutorial - https://t.me/hornyworld22/13    
      ━━━━━━━━━━━━━━━
      ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     
-    ⚙️ How to Download / Watch Online :""" + HOWTO
-
+    return str + footer
+  
+  async def addFooter(str):
+    footer = """
+    ━━━━━━━━━━━━━━━
+⚙️ How to Download / Watch Online :""" + HOWTO
+    
     return str + footer
        
 bot.run()
