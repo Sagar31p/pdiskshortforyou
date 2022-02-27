@@ -1,12 +1,12 @@
 {
-    "name": "pdiskshortforyou_Bot",
+    "name": "pvidly_Bot",
     "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
     "keywords": [
         "telegram",
         "gplink"
     ],
-    "website": "https://github.com/Pdiskbot/pdiskshortforyou",
-    "repository": "https://github.com/Pdiskbot/pdiskshortforyou",
+    "website": "https://github.com/Sagar31p/pdiskshortforyou",
+    "repository": "https://github.com/Sagar31p/pdiskshortforyou",
     "env": {
         "BOT_TOKEN": {
             "description": "Your telegram bot token",
@@ -14,23 +14,23 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "7626510"
+            "value": "8407612"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
+            "value": "ead6912bce303e57b80130276451200f"
         },
         "API_KEY": {
-            "description": "https://pdiskshortforyou.tech/member/tools/api",
-            "value": "63c301e0e818c79153e9175ff8f9d0833dce5c76"
+            "description": "https://pvidly.in/member/tools/api",
+            "value": "5f7b202b0d24bf433d44a5e281a9a851608a43b8"
         },
         "CHANNEL": {
             "description": "Your Backup channel link",
-            "value": "https://t.me/hornyworld22"
+            "value": "https://t.me/prime_x_movies_videos_cine_7"
         },
         "HOWTO": {
-            "description": "Your 'How to Download from pdiskshortforyou' video link",
-            "value": "https://t.me/hornyworld22/13"
+            "description": "Your 'How to Download from pvidly' video link",
+            "value": "https://t.me/prime_x_movies_videos_cine_7"
         }
         },
         
