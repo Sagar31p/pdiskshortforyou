@@ -1,13 +1,13 @@
 
-# Pdiskshortforyou-bot
-Make short link by using [pdiskshortforyou](https://pdiskshortforyou.tech) API key
+# pvidly-bot
+Make short link by using [pvidly](https://pvidly.in) API key
 ### Join Our Channel on telegram 
-[@hornyworld22](t.me/hornyworld22) or contact [@mrpunisher52](t.me/mrpunisher52) for bot
+[@hornyworld22](t.me/earn4clicks_in) or contact [@earn4clicks_in](t.me/earn4clicks_in) for bot
 ### Installation
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pdiskbot/pdiskshortforyou)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sagar31p/pdiskshortforyou)
 
 ##### Required Variables
 
@@ -15,6 +15,6 @@ Make short link by using [pdiskshortforyou](https://pdiskshortforyou.tech) API k
 
 * `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
-* `API_KEY`: Create [pdiskshortforyou](https://pdiskshortforyou.tech) account then get this value from [pdiskshortforyou API](https://pdiskshortforyou.tech/member/tools/api)
+* `API_KEY`: Create [pvidly](https://pvidly.in) account then get this value from [pvidly API](https://pvidly.in/member/tools/api)
 * `CHANNEL`: Your Backup channel link
-* `HOWTO`: Your "How to Download from pdiskshortforyou" video link
+* `HOWTO`: Your "How to Download from pvidly" video link
