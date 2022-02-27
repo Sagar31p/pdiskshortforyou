@@ -27,19 +27,19 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm droplink bot. Just send me link and get short link made by @mrpunisher52")
+        "I'm droplink bot. Just send me link and get short link made by @earn4clicks_in")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @mrpunisher52 For more help-**")
+        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @earn4clicks_in For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @mrpunisher52 or for more join @hornyworld22**")
+        "**please contact me on @earn4clicks_in or for more join @earn4clicks_in**")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
@@ -72,7 +72,7 @@ async def pdisk_uploader(bot, message):
     
 async def pdisk_up(link):
     if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'vdshort' in link or 'vidrivers' in link or 'dplinks' in link or 'wslinker' in link or 'cdinks' in link or 'dropxer' in link or 'dood' in link):
-        url = 'https://pdiskshortforyou.tech/api'
+        url = 'https://pvidly.in/api'
         params = {'api': API_KEY, 'url': link}
     
         async with aiohttp.ClientSession() as session:
@@ -88,7 +88,7 @@ async def multi_pdisk_up(ml_string):
     list_string = ml_string.splitlines()
     ml_string = ' \n'.join(list_string)
     new_ml_string = list(map(str, ml_string.split(" ")))
-    new_ml_string = [sub.replace('https://t.me/Desi_Bhabhi_Aunty_hot_Video/41', 'https://t.me/Desi_Bhabhi_Aunty_hot_Video/61') for sub in new_ml_string]
+    new_ml_string = [sub.replace('https://t.me/prime_x_movies_videos_cine_7', 'https://t.me/prime_x_movies_videos_cine_7') for sub in new_ml_string]
     #new_ml_string = await remove_footer(new_ml_string)
     new_join_str = "".join(new_ml_string)
 
@@ -127,7 +127,7 @@ async def new_pdisk_url(urls):
   
 async def remove_username(new_List):
     for i in new_List:
-        if('https://bit.ly/3m4gabB' in i or 'https://bit.ly/pdisk_tuts' in i or '⭐️JOIN CHANNEL ➡️ t.me/hornyworld22' in i):
+        if('https://bit.ly/3m4gabB' in i or 'https://bit.ly/pdisk_tuts' in i or '⭐️JOIN CHANNEL ➡️ @prime_x_movies_videos_cine_7' in i):
             new_List.remove(i)
     return new_List
   
