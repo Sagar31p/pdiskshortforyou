@@ -2,7 +2,7 @@
 # pvidly-bot
 Make short link by using [pvidly](https://pvidly.in) API key
 ### Join Our Channel on telegram 
-[@hornyworld22](t.me/earn4clicks_in) or contact [@earn4clicks_in](t.me/earn4clicks_in) for bot
+[@earn4clicks_in](t.me/earn4clicks_in) or contact [@earn4clicks_in](t.me/earn4clicks_in) for bot
 ### Installation
 
 #### The Easy Way
